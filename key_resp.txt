@@ -1,0 +1,12 @@
+2
+Vad heter du?
+#
+Mitt namn är wkuwus.
+##
+Hej
+Hej!
+Hej.
+#
+Hallå!
+Tjena.
+###
