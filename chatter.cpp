@@ -31,7 +31,6 @@ void chatter::analyze(string input)
 }
 
 
-//wont work, will read first string on each row only...or maybe will...
 void chatter::init_th()
 {
   ifstream th("dic/th_sv_SE.dat");
@@ -59,7 +58,7 @@ bool is_in( int *array, int index, int val )
   return false;
 }
 
-//code taken from http://ai-programming.com/ written by Gonzales Cenelia
+//made after code found at: http://ai-programming.com/ written by Gonzales Cenelia
 float chatter::fuzzymatch(string pattern, string text)
 {
   int Plen=pattern.size();
